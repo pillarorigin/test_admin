@@ -1,0 +1,45 @@
+client(react) - frontend
+	node_modules
+	public
+	src
+		actions (//redux 액션)
+		components (// 작은 단위)
+			feedbox
+				FeedBoxActionBox.js
+		containers (// components 보다 큰 단위)
+		layout(views) (// container가 모여서 보이는 페이지)
+		reducers (//store에 저장된 state 값들의 설정. 과일가게에는 과일만)
+		routes (//conponent의 주소 뭐시기. 참조 뭐 그런 개념. 미국의 고속도로, 길안내.)
+		styles (//css. scss)
+			conponents
+				feedbox
+					FeedBoxActionBox.css
+				profile
+		utils (//토큰 정보를 전달해주는 미들웨어 개념)
+			setAuthToken (토큰 정보, x-auth-token, 여기서 x는 임의값)
+		App.css
+		App.js
+		index.js
+		store.js (react state값 전역 저장소)
+		package.json
+		yarn.lock
+		
+config (//백엔드 서버에서 사용하는 DB 데이터 주소 및 기타 설정.) - 이하 backend
+middleware (백엔드에서 쓰는 미들웨어 - 인증에 사용.)
+models (//db스키마 모델.)
+node_modules(backend.)
+routes (//API 경로, 웹페이지 api로만 사용)
+	api
+		auth.js
+		posts.js
+		profile.js
+		user.js
+	controllers (// image 파일, upload, download 관련)
+		media.js
+.gitignore 
+package.json
+server.js
+yarn.lock
+
+
+===Admin===
