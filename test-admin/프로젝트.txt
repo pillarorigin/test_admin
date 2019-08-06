@@ -43,3 +43,27 @@ yarn.lock
 
 
 ===Admin===
+test_admin
+	node_modules
+	test-admin (//frontend)
+		build
+		node_modules
+		public
+			index.html (//id="root" 뿌려줄 껍데기)
+		src
+			App.js	(//jsonplaceholder api 받고, 화면에 뿌려줄 컴포넌트 모음 )
+			authProvider (//로그인 인증.. 현재 가짜 데이터)
+			Dashboard.js (//대시 보드 관련)
+			index.js (//App.js 컴포넌트 받아서 id="root"지정)
+			MyUrlField.js	(//url 꾸며줄 애들)
+			posts.js	(//게시물 관련)
+			users.js	(//사용자 관련)
+		.gitignore
+		프로젝트.txt
+		package-lock.json
+		package.json
+		README.md
+		yarn.lock
+	.gitattributes
+	package-lock.json
+	README.md
