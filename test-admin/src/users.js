@@ -1,5 +1,8 @@
+//react 기본 제공 componenet
 import React from 'react';
-import {List, Datagrid, TextField, EmailField, UrlField} from 'react-admin';
+import {List, Datagrid, TextField, EmailField} from 'react-admin'; 
+//내가 만든 component
+import MyUrlField from './MyUrlField';
 
 export const UserList = props => (
     <List {...props}>
@@ -10,7 +13,7 @@ export const UserList = props => (
             <EmailField source="email" />
             {/* <TextField source="address.street" /> */}
             <TextField source="phone" />
-            <UrlField source="website" />
+            <MyUrlField source="website" />
             <TextField source="company.name" />
         </Datagrid>
     </List>
