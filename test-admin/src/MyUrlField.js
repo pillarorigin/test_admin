@@ -1,6 +1,6 @@
 import React from 'react';
-import {withStyles} from '@material-ui/core/styles';
-import LaunchIcon from '@material-ui/icon/Launch';
+import { withStyles } from '@material-ui/core/styles';
+import LaunchIcon from '@material-ui/icons/Launch';
 
 const styles ={
     link: {
