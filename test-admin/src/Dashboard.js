@@ -1,7 +1,7 @@
 //대시보드 페이지 
 
 /*
-todolist (2019.08.07 인국 작성.)
+todolist (2019.08.07 인국.)
 user count, posts count
 */
 
