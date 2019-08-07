@@ -24,7 +24,6 @@ const theme = createMuiTheme({
     }
 })
 
-
 const App = () => (
 <Admin theme={theme} dataProvider={dataProvider} dashboard={Dashboard} authProvider={authProvider}>
     <Resource name="users" list={UserList} icon={UserIcon} /> 
