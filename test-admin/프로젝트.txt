@@ -40,6 +40,10 @@ routes (//API 경로, 웹페이지 api로만 사용)
 package.json
 server.js
 yarn.lock
+===========
+
+2019.08.08 todolist
+admin page 모바일 적용.
 
 
 ===Admin===
