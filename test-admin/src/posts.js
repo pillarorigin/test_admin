@@ -3,7 +3,7 @@ import React from 'react';
 import {
     List, Datagrid, TextField, ReferenceField, EditButton,
     Edit, SimpleForm, DisabledInput, ReferenceInput, SelectInput, TextInput, LongTextInput, Create, 
-    Filter
+    Filter, SimpleList
 } from 'react-admin';
 
 //게시물 검색
